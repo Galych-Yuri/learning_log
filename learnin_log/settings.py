@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     # Мої застосунки.
     'learning_logs',
     'users',
+    # Сторонні застосунки
+    'bootstrap4',
     # Уставні застосунки Django.
     'django.contrib.admin',
     'django.contrib.auth',
@@ -95,6 +97,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        "OPTIONS": {
+            "min_length": 9,
+        },
     },
     {
         'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
