@@ -1,2 +1,15 @@
 .idea/
 db.sqlite3
+__pycache__/
+.idea/
+.idea
+.venv
+*.py[cod]
+*.log
+*.tmp
+*.swp
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+Thumbs.db
+.vscode/
