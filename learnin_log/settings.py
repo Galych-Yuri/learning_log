@@ -135,6 +135,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # My settings
 LOGIN_URL = 'users:login'
 
-# Heroku settings
+# Configure Django App for Heroku.
 import django_on_heroku
 django_on_heroku.settings(locals())
